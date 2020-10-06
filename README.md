@@ -2,7 +2,6 @@
 Animations of the Fourier series of square and triangle waves.
 
 ![gif of html file](https://github.com/SirFourier/Fourier-Animations/blob/master/Fourier.gif)
-
 ## How to open in browser
 - Download files
 - Locate downloaded files
