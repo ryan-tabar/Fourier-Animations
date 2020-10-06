@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourier</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" media="screen"/>
+</head>
+<body>
+<h1>Fourier Animations</h1>
+<div>
+    <script src="Circle.js"></script>
+    <script src="Animation.js"></script>
+    <script src="FourierCanvas.js"></script>
+</div>
+<div>
+    <p>Square wave</p>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="20" value="3" class="slider" id="myRangeSquare">
+        <p>Harmonics: <span id="harmonicsSquare"></span></p>
+    </div>
+    <canvas id="myCanvasSquare">
+        <script>
+        const squareFourier = new FourierCanvas("square", 
+                                                "myCanvasSquare", 
+                                                "myRangeSquare", 
+                                                "harmonicsSquare");
+        </script>
+    </canvas>
+</div>
+<div>
+    <p>Triangle</p>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="20" value="3" class="slider" id="myRangeTriangle">
+        <p>Harmonics: <span id="harmonicsTriangle"></span></p>
+    </div>
+    <canvas id="myCanvasTriangle">
+        <script>
+            const triangleFourier = new FourierCanvas("triangle", 
+                                                      "myCanvasTriangle", 
+                                                      "myRangeTriangle", 
+                                                      "harmonicsTriangle");
+        </script>
+    </canvas>
+</div>
+</body>
+</html>

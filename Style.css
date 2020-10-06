@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(206, 152, 90);
+  }
+  
+  h1 {
+    font-family: Arial;
+    text-align: left;
+  }
+  
+  p {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left;
+  }
