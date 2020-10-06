@@ -16,7 +16,7 @@ This is my first attempt at programming in JavaScript as well as using HTML and 
   - Constructors
   - "this" keyword
   - Getters and setters
-  - methods
-  - arrow operator and it's usefullness with "this" keyword
+  - Methods
+  - Arrow operator and it's usefullness with "this" keyword
 - Some basic HTML and CSS formatting
 - Using the HTML canvas and accessing it through JavaScript
