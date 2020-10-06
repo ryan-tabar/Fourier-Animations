@@ -2,3 +2,21 @@
 Animations of fourier series of square and triangle waves.
 
 ![gif of html file](https://github.com/SirFourier/Fourier-Animations/blob/master/Fourier.gif)
+
+## How to open in browser
+- download files
+- locate downloaded files
+- click on Fourier.HTML
+
+## Motivation
+This is my first attempt at programming in JavaScript as well as using HTML and CSS. I wanted to have a go at creating an animation for the fourier series of both a square and triangular wave. I wanted to also add a slider to adjust the number of harmonics presented. 
+
+## What I have learned
+- OOP with classes in JavaScript
+  - Constructors
+  - "this" keyword
+  - Getters and setters
+  - methods
+  - arrow operator and it's usefullness with "this" keyword
+- Some basic HTML and CSS formatting
+- Using the HTML canvas and accessing it through JavaScript
