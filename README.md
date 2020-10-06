@@ -1,3 +1,3 @@
 # Fourier-Animations
 Animations of fourier series of square and triangle waves.
-![Alt Text](https://github.com/SirFourier/Fourier-Animations/blob/master/Fourier.gif)
+![gif of html file](https://github.com/SirFourier/Fourier-Animations/blob/master/Fourier.gif)
