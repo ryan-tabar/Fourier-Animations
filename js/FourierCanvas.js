@@ -12,12 +12,13 @@ class FourierCanvas {
         this.slider = document.getElementById(sliderID);
         this.output = document.getElementById(harmonicsID);
         this.output.innerHTML = this.slider.value;
-        this.slider.oninput = () => { this.output.innerHTML = this.slider.value;
-                                      this.animation = new FourierAnimation(this.wave, 
-                                                                            this.radius, 
-                                                                            this.center, 
-                                                                            this.harmonics=parseInt(this.slider.value));
-                                    };
+        this.slider.oninput = () => {
+        this.output.innerHTML = this.slider.value;
+        this.animation = new FourierAnimation(this.wave, 
+                                              this.radius, 
+                                              this.center, 
+                                              this.harmonics=parseInt(this.slider.value));
+        };
         
         // set canvas parameters and set interval
         const FPS = 60;
